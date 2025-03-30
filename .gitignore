@@ -1,0 +1,14 @@
+# No subir configuraciones sensibles
+wp-config.php
+
+# No subir archivos temporales
+wp-content/cache/
+wp-content/upgrade/
+wp-content/debug.log
+
+# No subir la base de datos (se exporta aparte)
+*.sql
+
+# No subir archivos de WordPress innecesarios
+wp-admin/
+wp-includes/
